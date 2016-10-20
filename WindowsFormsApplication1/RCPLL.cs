@@ -259,8 +259,24 @@ namespace WindowsFormsApplication1
 
         private void aToolStripMenuItemNa_Click(object sender, EventArgs e)
         {
+            var p = RCDB.PLL.Single(asdf => asdf.Title == "N(a)");
 
-        }
+            textBox1.Clear();
+            textBox2.Clear();
+            textBox3.Clear();
+
+            pictureBox1.Image = Image.FromFile(AppDomain.CurrentDomain.BaseDirectory + p.ImgPath);
+            textBox3.AppendText(p.ProTip + Environment.NewLine + Environment.NewLine);
+
+            foreach (var a in p.Algorithms)
+            {
+
+                textBox1.AppendText(a.Type + Environment.NewLine);
+                textBox1.AppendText(a.AlgDisplay + Environment.NewLine + Environment.NewLine);
+                textBox2.AppendText(a.ProTip);
+
+            }
+    }
 
         private void bToolStripMenuItemNb_Click(object sender, EventArgs e)
         {
@@ -324,11 +340,28 @@ namespace WindowsFormsApplication1
 
             }
         }
-    //FKJS:LKJLKJS:FSKJ:FKS:FJ:SKJF:KSJ:LFKJS:KJ:FKS:FJKSL:FJK
+ 
         private void aToolStripMenuItemGa_Click(object sender, EventArgs e)
         {
+            var p = RCDB.PLL.Single(asdf => asdf.Title == "G(a)");
 
-        }
+            textBox1.Clear();
+            textBox2.Clear();
+            textBox3.Clear();
+
+            pictureBox1.Image = Image.FromFile(AppDomain.CurrentDomain.BaseDirectory + p.ImgPath);
+            textBox3.AppendText(p.ProTip + Environment.NewLine + Environment.NewLine);
+
+            foreach (var a in p.Algorithms)
+            {
+
+                textBox1.AppendText(a.Type + Environment.NewLine);
+                textBox1.AppendText(a.AlgDisplay + Environment.NewLine + Environment.NewLine);
+                textBox2.AppendText(a.ProTip);
+
+            }
+        
+    }
 
         private void bToolStripMenuItemGb_Click(object sender, EventArgs e)
         {
@@ -395,7 +428,22 @@ namespace WindowsFormsApplication1
 
         private void aToolStripMenuItemJa_Click(object sender, EventArgs e)
         {
+            var p = RCDB.PLL.Single(asdf => asdf.Title == "J(a)");
 
+            textBox1.Clear();
+            textBox2.Clear();
+            textBox3.Clear();
+
+            pictureBox1.Image = Image.FromFile(AppDomain.CurrentDomain.BaseDirectory + p.ImgPath);
+            textBox3.AppendText(p.ProTip + Environment.NewLine + Environment.NewLine);
+
+            foreach (var a in p.Algorithms)
+            {
+
+                textBox1.AppendText(a.Type + Environment.NewLine);
+                textBox1.AppendText(a.AlgDisplay + Environment.NewLine + Environment.NewLine);
+                textBox2.AppendText(a.ProTip);
+            }
         }
 
         private void bToolStripMenuItemJb_Click(object sender, EventArgs e)
