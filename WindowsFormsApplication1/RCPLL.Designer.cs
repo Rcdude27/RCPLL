@@ -235,13 +235,13 @@
             this.jToolStripMenuItem.Name = "jToolStripMenuItem";
             this.jToolStripMenuItem.Size = new System.Drawing.Size(23, 20);
             this.jToolStripMenuItem.Text = "J";
-            this.jToolStripMenuItem.Click += new System.EventHandler(this.aToolStripMenuItemJa_Click);
             // 
             // aToolStripMenuItem3
             // 
             this.aToolStripMenuItem3.Name = "aToolStripMenuItem3";
             this.aToolStripMenuItem3.Size = new System.Drawing.Size(152, 22);
             this.aToolStripMenuItem3.Text = "a";
+            this.aToolStripMenuItem3.Click += new System.EventHandler(this.aToolStripMenuItemJa_Click);
             // 
             // bToolStripMenuItem2
             // 
@@ -258,13 +258,13 @@
             this.rToolStripMenuItem.Name = "rToolStripMenuItem";
             this.rToolStripMenuItem.Size = new System.Drawing.Size(26, 20);
             this.rToolStripMenuItem.Text = "R";
-            this.rToolStripMenuItem.Click += new System.EventHandler(this.aToolStripMenuItemRa_Click);
             // 
             // aToolStripMenuItem4
             // 
             this.aToolStripMenuItem4.Name = "aToolStripMenuItem4";
             this.aToolStripMenuItem4.Size = new System.Drawing.Size(152, 22);
             this.aToolStripMenuItem4.Text = "a";
+            this.aToolStripMenuItem4.Click += new System.EventHandler(this.aToolStripMenuItemRa_Click);
             // 
             // bToolStripMenuItem3
             // 
@@ -281,13 +281,13 @@
             this.nToolStripMenuItem.Name = "nToolStripMenuItem";
             this.nToolStripMenuItem.Size = new System.Drawing.Size(28, 20);
             this.nToolStripMenuItem.Text = "N";
-            this.nToolStripMenuItem.Click += new System.EventHandler(this.aToolStripMenuItemNa_Click);
             // 
             // aToolStripMenuItem5
             // 
             this.aToolStripMenuItem5.Name = "aToolStripMenuItem5";
             this.aToolStripMenuItem5.Size = new System.Drawing.Size(152, 22);
             this.aToolStripMenuItem5.Text = "a";
+            this.aToolStripMenuItem5.Click += new System.EventHandler(this.aToolStripMenuItemNa_Click);
             // 
             // bToolStripMenuItem4
             // 
@@ -306,13 +306,13 @@
             this.gToolStripMenuItem.Name = "gToolStripMenuItem";
             this.gToolStripMenuItem.Size = new System.Drawing.Size(27, 20);
             this.gToolStripMenuItem.Text = "G";
-            this.gToolStripMenuItem.Click += new System.EventHandler(this.aToolStripMenuItemGa_Click);
             // 
             // aToolStripMenuItem6
             // 
             this.aToolStripMenuItem6.Name = "aToolStripMenuItem6";
             this.aToolStripMenuItem6.Size = new System.Drawing.Size(152, 22);
             this.aToolStripMenuItem6.Text = "a";
+            this.aToolStripMenuItem6.Click += new System.EventHandler(this.aToolStripMenuItemGa_Click);
             // 
             // bToolStripMenuItem5
             // 
