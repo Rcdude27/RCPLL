@@ -27,7 +27,7 @@ namespace WindowsFormsApplication1
 #endregion
         #region Algs
         //Use this one for format
-        private void hToolStripMenuItem_Click(object sender, EventArgs e)
+        private void hToolStripMenuItemH_Click(object sender, EventArgs e)
         {
             var p = RCDB.PLL.Single(asdf => asdf.Title == "H");
 
@@ -49,7 +49,7 @@ namespace WindowsFormsApplication1
             }
         }
 
-        private void tToolStripMenuItem_Click(object sender, EventArgs e)
+        private void tToolStripMenuItemT_Click(object sender, EventArgs e)
         {
             var p = RCDB.PLL.Single(asdf => asdf.Title == "T");
 
@@ -69,7 +69,7 @@ namespace WindowsFormsApplication1
             }
         }
 
-        private void zToolStripMenuItem_Click(object sender, EventArgs e)
+        private void zToolStripMenuItemZ_Click(object sender, EventArgs e)
         {
             var p = RCDB.PLL.Single(asdf => asdf.Title == "Z");
 
@@ -89,7 +89,7 @@ namespace WindowsFormsApplication1
             }
         }
 
-        private void yToolStripMenuItem_Click(object sender, EventArgs e)
+        private void yToolStripMenuItemY_Click(object sender, EventArgs e)
         {
             var p = RCDB.PLL.Single(asdf => asdf.Title == "Y");
 
@@ -110,7 +110,7 @@ namespace WindowsFormsApplication1
             }
         }
 
-        private void eToolStripMenuItem_Click(object sender, EventArgs e)
+        private void eToolStripMenuItemE_Click(object sender, EventArgs e)
         {
             var p = RCDB.PLL.Single(asdf => asdf.Title == "E");
 
@@ -131,7 +131,7 @@ namespace WindowsFormsApplication1
             }
         }
 
-        private void vToolStripMenuItem_Click(object sender, EventArgs e)
+        private void vToolStripMenuItemV_Click(object sender, EventArgs e)
         {
             var p = RCDB.PLL.Single(asdf => asdf.Title == "V");
 
@@ -152,7 +152,7 @@ namespace WindowsFormsApplication1
             }
         }
 
-        private void fToolStripMenuItem_Click(object sender, EventArgs e)
+        private void fToolStripMenuItemF_Click(object sender, EventArgs e)
         {
             var p = RCDB.PLL.Single(asdf => asdf.Title == "F");
 
@@ -173,7 +173,7 @@ namespace WindowsFormsApplication1
             }
         }
 
-        private void aToolStripMenuItem1_Click(object sender, EventArgs e)
+        private void aToolStripMenuItemA_Click(object sender, EventArgs e)
         {
             var p = RCDB.PLL.Single(asdf => asdf.Title == "A(a)");
 
@@ -194,7 +194,7 @@ namespace WindowsFormsApplication1
             }
         }
 
-        private void bToolStripMenuItem_Click(object sender, EventArgs e)
+        private void bToolStripMenuItemB_Click(object sender, EventArgs e)
         {
             var p = RCDB.PLL.Single(asdf => asdf.Title == "A(b)");
 
@@ -215,7 +215,7 @@ namespace WindowsFormsApplication1
             }
         }
 
-        private void aToolStripMenuItem2_Click(object sender, EventArgs e)
+        private void aToolStripMenuItemUa_Click(object sender, EventArgs e)
         {
             var p = RCDB.PLL.Single(asdf => asdf.Title == "U(a)");
 
@@ -236,7 +236,7 @@ namespace WindowsFormsApplication1
             }
         }
 
-        private void bToolStripMenuItem1_Click(object sender, EventArgs e)
+        private void bToolStripMenuItemUb_Click(object sender, EventArgs e)
         {
             var p = RCDB.PLL.Single(asdf => asdf.Title == "U(b)");
 
@@ -257,7 +257,7 @@ namespace WindowsFormsApplication1
             }
         }
 
-        private void aToolStripMenuItem3_Click(object sender, EventArgs e)
+        private void aToolStripMenuItemNa_Click(object sender, EventArgs e)
         {
             var p = RCDB.PLL.Single(asdf => asdf.Title == "N(a)");
 
@@ -278,7 +278,7 @@ namespace WindowsFormsApplication1
             }
         }
 
-        private void bToolStripMenuItem2_Click(object sender, EventArgs e)
+        private void bToolStripMenuItemNb_Click(object sender, EventArgs e)
         {
             var p = RCDB.PLL.Single(asdf => asdf.Title == "N(b)");
 
@@ -299,7 +299,7 @@ namespace WindowsFormsApplication1
             }
         }
 
-        private void aToolStripMenuItem4_Click(object sender, EventArgs e)
+        private void aToolStripMenuItemRa_Click(object sender, EventArgs e)
         {
             var p = RCDB.PLL.Single(asdf => asdf.Title == "R(a)");
 
@@ -319,7 +319,7 @@ namespace WindowsFormsApplication1
             }
         }
 
-        private void bToolStripMenuItem3_Click(object sender, EventArgs e)
+        private void bToolStripMenuItemRb_Click(object sender, EventArgs e)
         {
             var p = RCDB.PLL.Single(asdf => asdf.Title == "R(b)");
 
@@ -340,7 +340,7 @@ namespace WindowsFormsApplication1
             }
         }
 
-        private void aToolStripMenuItem5_Click(object sender, EventArgs e)
+        private void aToolStripMenuItemGa_Click(object sender, EventArgs e)
         {
             var p = RCDB.PLL.Single(asdf => asdf.Title == "G(a)");
 
@@ -362,7 +362,7 @@ namespace WindowsFormsApplication1
             }
         }
 
-        private void bToolStripMenuItem4_Click(object sender, EventArgs e)
+        private void bToolStripMenuItemGb_Click(object sender, EventArgs e)
         {
             var p = RCDB.PLL.Single(asdf => asdf.Title == "G(b)");
 
@@ -383,9 +383,9 @@ namespace WindowsFormsApplication1
             }
         }
 
-        private void cToolStripMenuItem_Click(object sender, EventArgs e)
+        private void cToolStripMenuItemGc_Click(object sender, EventArgs e)
         {
-            var p = RCDB.PLL.Single(asdf => asdf.Title == "G(b)");
+            var p = RCDB.PLL.Single(asdf => asdf.Title == "G(c)");
 
             textBox1.Clear();
             textBox2.Clear();
@@ -404,7 +404,7 @@ namespace WindowsFormsApplication1
             }
         }
 
-        private void dToolStripMenuItem_Click(object sender, EventArgs e)
+        private void dToolStripMenuItemGd_Click(object sender, EventArgs e)
         {
             var p = RCDB.PLL.Single(asdf => asdf.Title == "G(d)");
 
@@ -425,7 +425,7 @@ namespace WindowsFormsApplication1
             }
         }
 
-        private void aToolStripMenuItem6_Click(object sender, EventArgs e)
+        private void aToolStripMenuItemJa_Click(object sender, EventArgs e)
         {
             var p = RCDB.PLL.Single(asdf => asdf.Title == "J(a)");
 
@@ -446,7 +446,7 @@ namespace WindowsFormsApplication1
             }
         }
 
-        private void bToolStripMenuItem5_Click(object sender, EventArgs e)
+        private void bToolStripMenuItemJb_Click(object sender, EventArgs e)
         {
             var p = RCDB.PLL.Single(asdf => asdf.Title == "J(b)");
 
@@ -479,11 +479,6 @@ namespace WindowsFormsApplication1
             Hide();
             var BeginnersMode = new BeginnersMode();
             BeginnersMode.ShowDialog();
-        }
-
-        private void zToolStripMenuItem_Click_1(object sender, EventArgs e)
-        {
-
         }
     }
 }

@@ -41,31 +41,31 @@
             this.button2 = new System.Windows.Forms.Button();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.aToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.aToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.bToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.uToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.aToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.bToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.jToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.aToolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
+            this.bToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.rToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.aToolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
+            this.bToolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
             this.nToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.aToolStripMenuItem5 = new System.Windows.Forms.ToolStripMenuItem();
+            this.bToolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
             this.gToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.aToolStripMenuItem6 = new System.Windows.Forms.ToolStripMenuItem();
+            this.bToolStripMenuItem5 = new System.Windows.Forms.ToolStripMenuItem();
+            this.cToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.dToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.yToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.eToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.vToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.hToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.zToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.aToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.bToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.aToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.bToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.aToolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
-            this.bToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.aToolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
-            this.bToolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
-            this.aToolStripMenuItem5 = new System.Windows.Forms.ToolStripMenuItem();
-            this.bToolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
-            this.aToolStripMenuItem6 = new System.Windows.Forms.ToolStripMenuItem();
-            this.bToolStripMenuItem5 = new System.Windows.Forms.ToolStripMenuItem();
-            this.cToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.dToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.fToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.menuStrip1.SuspendLayout();
@@ -190,6 +190,20 @@
             this.aToolStripMenuItem.Size = new System.Drawing.Size(27, 20);
             this.aToolStripMenuItem.Text = "A";
             // 
+            // aToolStripMenuItem1
+            // 
+            this.aToolStripMenuItem1.Name = "aToolStripMenuItem1";
+            this.aToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
+            this.aToolStripMenuItem1.Text = "a";
+            this.aToolStripMenuItem1.Click += new System.EventHandler(this.aToolStripMenuItemA_Click);
+            // 
+            // bToolStripMenuItem
+            // 
+            this.bToolStripMenuItem.Name = "bToolStripMenuItem";
+            this.bToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.bToolStripMenuItem.Text = "b";
+            this.bToolStripMenuItem.Click += new System.EventHandler(this.bToolStripMenuItemB_Click);
+            // 
             // uToolStripMenuItem
             // 
             this.uToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -199,6 +213,20 @@
             this.uToolStripMenuItem.Size = new System.Drawing.Size(27, 20);
             this.uToolStripMenuItem.Text = "U";
             // 
+            // aToolStripMenuItem2
+            // 
+            this.aToolStripMenuItem2.Name = "aToolStripMenuItem2";
+            this.aToolStripMenuItem2.Size = new System.Drawing.Size(152, 22);
+            this.aToolStripMenuItem2.Text = "a";
+            this.aToolStripMenuItem2.Click += new System.EventHandler(this.aToolStripMenuItemUa_Click);
+            // 
+            // bToolStripMenuItem1
+            // 
+            this.bToolStripMenuItem1.Name = "bToolStripMenuItem1";
+            this.bToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
+            this.bToolStripMenuItem1.Text = "b";
+            this.bToolStripMenuItem1.Click += new System.EventHandler(this.bToolStripMenuItemUb_Click);
+            // 
             // jToolStripMenuItem
             // 
             this.jToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -207,96 +235,7 @@
             this.jToolStripMenuItem.Name = "jToolStripMenuItem";
             this.jToolStripMenuItem.Size = new System.Drawing.Size(23, 20);
             this.jToolStripMenuItem.Text = "J";
-            // 
-            // rToolStripMenuItem
-            // 
-            this.rToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.aToolStripMenuItem4,
-            this.bToolStripMenuItem3});
-            this.rToolStripMenuItem.Name = "rToolStripMenuItem";
-            this.rToolStripMenuItem.Size = new System.Drawing.Size(26, 20);
-            this.rToolStripMenuItem.Text = "R";
-            // 
-            // nToolStripMenuItem
-            // 
-            this.nToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.aToolStripMenuItem5,
-            this.bToolStripMenuItem4});
-            this.nToolStripMenuItem.Name = "nToolStripMenuItem";
-            this.nToolStripMenuItem.Size = new System.Drawing.Size(28, 20);
-            this.nToolStripMenuItem.Text = "N";
-            // 
-            // gToolStripMenuItem
-            // 
-            this.gToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.aToolStripMenuItem6,
-            this.bToolStripMenuItem5,
-            this.cToolStripMenuItem,
-            this.dToolStripMenuItem});
-            this.gToolStripMenuItem.Name = "gToolStripMenuItem";
-            this.gToolStripMenuItem.Size = new System.Drawing.Size(27, 20);
-            this.gToolStripMenuItem.Text = "G";
-            // 
-            // tToolStripMenuItem
-            // 
-            this.tToolStripMenuItem.Name = "tToolStripMenuItem";
-            this.tToolStripMenuItem.Size = new System.Drawing.Size(26, 20);
-            this.tToolStripMenuItem.Text = "T";
-            // 
-            // yToolStripMenuItem
-            // 
-            this.yToolStripMenuItem.Name = "yToolStripMenuItem";
-            this.yToolStripMenuItem.Size = new System.Drawing.Size(26, 20);
-            this.yToolStripMenuItem.Text = "Y";
-            // 
-            // eToolStripMenuItem
-            // 
-            this.eToolStripMenuItem.Name = "eToolStripMenuItem";
-            this.eToolStripMenuItem.Size = new System.Drawing.Size(25, 20);
-            this.eToolStripMenuItem.Text = "E";
-            // 
-            // vToolStripMenuItem
-            // 
-            this.vToolStripMenuItem.Name = "vToolStripMenuItem";
-            this.vToolStripMenuItem.Size = new System.Drawing.Size(26, 20);
-            this.vToolStripMenuItem.Text = "V";
-            // 
-            // hToolStripMenuItem
-            // 
-            this.hToolStripMenuItem.Name = "hToolStripMenuItem";
-            this.hToolStripMenuItem.Size = new System.Drawing.Size(28, 20);
-            this.hToolStripMenuItem.Text = "H";
-            // 
-            // zToolStripMenuItem
-            // 
-            this.zToolStripMenuItem.Name = "zToolStripMenuItem";
-            this.zToolStripMenuItem.Size = new System.Drawing.Size(26, 20);
-            this.zToolStripMenuItem.Text = "Z";
-            this.zToolStripMenuItem.Click += new System.EventHandler(this.zToolStripMenuItem_Click_1);
-            // 
-            // aToolStripMenuItem1
-            // 
-            this.aToolStripMenuItem1.Name = "aToolStripMenuItem1";
-            this.aToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
-            this.aToolStripMenuItem1.Text = "a";
-            // 
-            // bToolStripMenuItem
-            // 
-            this.bToolStripMenuItem.Name = "bToolStripMenuItem";
-            this.bToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.bToolStripMenuItem.Text = "b";
-            // 
-            // aToolStripMenuItem2
-            // 
-            this.aToolStripMenuItem2.Name = "aToolStripMenuItem2";
-            this.aToolStripMenuItem2.Size = new System.Drawing.Size(152, 22);
-            this.aToolStripMenuItem2.Text = "a";
-            // 
-            // bToolStripMenuItem1
-            // 
-            this.bToolStripMenuItem1.Name = "bToolStripMenuItem1";
-            this.bToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
-            this.bToolStripMenuItem1.Text = "b";
+            this.jToolStripMenuItem.Click += new System.EventHandler(this.aToolStripMenuItemJa_Click);
             // 
             // aToolStripMenuItem3
             // 
@@ -309,6 +248,17 @@
             this.bToolStripMenuItem2.Name = "bToolStripMenuItem2";
             this.bToolStripMenuItem2.Size = new System.Drawing.Size(152, 22);
             this.bToolStripMenuItem2.Text = "b";
+            this.bToolStripMenuItem2.Click += new System.EventHandler(this.bToolStripMenuItemJb_Click);
+            // 
+            // rToolStripMenuItem
+            // 
+            this.rToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.aToolStripMenuItem4,
+            this.bToolStripMenuItem3});
+            this.rToolStripMenuItem.Name = "rToolStripMenuItem";
+            this.rToolStripMenuItem.Size = new System.Drawing.Size(26, 20);
+            this.rToolStripMenuItem.Text = "R";
+            this.rToolStripMenuItem.Click += new System.EventHandler(this.aToolStripMenuItemRa_Click);
             // 
             // aToolStripMenuItem4
             // 
@@ -321,6 +271,17 @@
             this.bToolStripMenuItem3.Name = "bToolStripMenuItem3";
             this.bToolStripMenuItem3.Size = new System.Drawing.Size(152, 22);
             this.bToolStripMenuItem3.Text = "b";
+            this.bToolStripMenuItem3.Click += new System.EventHandler(this.bToolStripMenuItemRb_Click);
+            // 
+            // nToolStripMenuItem
+            // 
+            this.nToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.aToolStripMenuItem5,
+            this.bToolStripMenuItem4});
+            this.nToolStripMenuItem.Name = "nToolStripMenuItem";
+            this.nToolStripMenuItem.Size = new System.Drawing.Size(28, 20);
+            this.nToolStripMenuItem.Text = "N";
+            this.nToolStripMenuItem.Click += new System.EventHandler(this.aToolStripMenuItemNa_Click);
             // 
             // aToolStripMenuItem5
             // 
@@ -333,6 +294,19 @@
             this.bToolStripMenuItem4.Name = "bToolStripMenuItem4";
             this.bToolStripMenuItem4.Size = new System.Drawing.Size(152, 22);
             this.bToolStripMenuItem4.Text = "b";
+            this.bToolStripMenuItem4.Click += new System.EventHandler(this.bToolStripMenuItemNb_Click);
+            // 
+            // gToolStripMenuItem
+            // 
+            this.gToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.aToolStripMenuItem6,
+            this.bToolStripMenuItem5,
+            this.cToolStripMenuItem,
+            this.dToolStripMenuItem});
+            this.gToolStripMenuItem.Name = "gToolStripMenuItem";
+            this.gToolStripMenuItem.Size = new System.Drawing.Size(27, 20);
+            this.gToolStripMenuItem.Text = "G";
+            this.gToolStripMenuItem.Click += new System.EventHandler(this.aToolStripMenuItemGa_Click);
             // 
             // aToolStripMenuItem6
             // 
@@ -345,24 +319,70 @@
             this.bToolStripMenuItem5.Name = "bToolStripMenuItem5";
             this.bToolStripMenuItem5.Size = new System.Drawing.Size(152, 22);
             this.bToolStripMenuItem5.Text = "b";
+            this.bToolStripMenuItem5.Click += new System.EventHandler(this.bToolStripMenuItemGb_Click);
             // 
             // cToolStripMenuItem
             // 
             this.cToolStripMenuItem.Name = "cToolStripMenuItem";
             this.cToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.cToolStripMenuItem.Text = "c";
+            this.cToolStripMenuItem.Click += new System.EventHandler(this.cToolStripMenuItemGc_Click);
             // 
             // dToolStripMenuItem
             // 
             this.dToolStripMenuItem.Name = "dToolStripMenuItem";
             this.dToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.dToolStripMenuItem.Text = "d";
+            this.dToolStripMenuItem.Click += new System.EventHandler(this.dToolStripMenuItemGd_Click);
+            // 
+            // tToolStripMenuItem
+            // 
+            this.tToolStripMenuItem.Name = "tToolStripMenuItem";
+            this.tToolStripMenuItem.Size = new System.Drawing.Size(26, 20);
+            this.tToolStripMenuItem.Text = "T";
+            this.tToolStripMenuItem.Click += new System.EventHandler(this.tToolStripMenuItemT_Click);
+            // 
+            // yToolStripMenuItem
+            // 
+            this.yToolStripMenuItem.Name = "yToolStripMenuItem";
+            this.yToolStripMenuItem.Size = new System.Drawing.Size(26, 20);
+            this.yToolStripMenuItem.Text = "Y";
+            this.yToolStripMenuItem.Click += new System.EventHandler(this.yToolStripMenuItemY_Click);
+            // 
+            // eToolStripMenuItem
+            // 
+            this.eToolStripMenuItem.Name = "eToolStripMenuItem";
+            this.eToolStripMenuItem.Size = new System.Drawing.Size(25, 20);
+            this.eToolStripMenuItem.Text = "E";
+            this.eToolStripMenuItem.Click += new System.EventHandler(this.eToolStripMenuItemE_Click);
+            // 
+            // vToolStripMenuItem
+            // 
+            this.vToolStripMenuItem.Name = "vToolStripMenuItem";
+            this.vToolStripMenuItem.Size = new System.Drawing.Size(26, 20);
+            this.vToolStripMenuItem.Text = "V";
+            this.vToolStripMenuItem.Click += new System.EventHandler(this.vToolStripMenuItemV_Click);
+            // 
+            // hToolStripMenuItem
+            // 
+            this.hToolStripMenuItem.Name = "hToolStripMenuItem";
+            this.hToolStripMenuItem.Size = new System.Drawing.Size(28, 20);
+            this.hToolStripMenuItem.Text = "H";
+            this.hToolStripMenuItem.Click += new System.EventHandler(this.hToolStripMenuItemH_Click);
+            // 
+            // zToolStripMenuItem
+            // 
+            this.zToolStripMenuItem.Name = "zToolStripMenuItem";
+            this.zToolStripMenuItem.Size = new System.Drawing.Size(26, 20);
+            this.zToolStripMenuItem.Text = "Z";
+            this.zToolStripMenuItem.Click += new System.EventHandler(this.zToolStripMenuItemZ_Click);
             // 
             // fToolStripMenuItem
             // 
             this.fToolStripMenuItem.Name = "fToolStripMenuItem";
             this.fToolStripMenuItem.Size = new System.Drawing.Size(25, 20);
             this.fToolStripMenuItem.Text = "F";
+            this.fToolStripMenuItem.Click += new System.EventHandler(this.fToolStripMenuItemF_Click);
             // 
             // RCPLL
             // 
