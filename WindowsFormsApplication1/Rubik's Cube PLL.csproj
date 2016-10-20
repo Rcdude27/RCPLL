@@ -141,6 +141,8 @@
     <Content Include="PermPics\N%28b%29.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="PermPics\R%28a%29.png" />
+    <Content Include="PermPics\R%28b%29.png" />
     <Content Include="PermPics\T.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
