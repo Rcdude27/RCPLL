@@ -58,7 +58,7 @@ namespace DataModels
             PLL.Add(p);
 
             p = NewPerm("A(b)", "A(b).png", "looks the same as the last one just the headlights are rotated 90 degrees.");
-            p.Algorithms.Add(NewAlg("y x' [(R U' R) D2] [(R' U R) D2] R2", "Two-Handed & One Handed - Left Hand", "Finger Flick D2's", true));
+            p.Algorithms.Add(NewAlg("  y x' [(R U' R) D2] [(R' U R) D2] R2", "Two-Handed & One Handed - Left Hand", "Finger Flick D2's", true));
             //p.Algorithms.Add(NewAlg("aaaa", "aaaa", "aaaa", false);
             PLL.Add(p);
 
