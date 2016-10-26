@@ -76,6 +76,7 @@
             this.textBox1.Location = new System.Drawing.Point(118, 50);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
+            this.textBox1.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.textBox1.Size = new System.Drawing.Size(288, 114);
             this.textBox1.TabIndex = 2;
             // 
@@ -92,6 +93,7 @@
             this.textBox2.Location = new System.Drawing.Point(118, 191);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
+            this.textBox2.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.textBox2.Size = new System.Drawing.Size(288, 78);
             this.textBox2.TabIndex = 4;
             // 
@@ -141,7 +143,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(329, 340);
+            this.button1.Location = new System.Drawing.Point(331, 289);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 10;
@@ -151,7 +153,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(12, 339);
+            this.button2.Location = new System.Drawing.Point(13, 289);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 11;
@@ -193,14 +195,14 @@
             // aToolStripMenuItem1
             // 
             this.aToolStripMenuItem1.Name = "aToolStripMenuItem1";
-            this.aToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
+            this.aToolStripMenuItem1.Size = new System.Drawing.Size(81, 22);
             this.aToolStripMenuItem1.Text = "a";
             this.aToolStripMenuItem1.Click += new System.EventHandler(this.aToolStripMenuItemA_Click);
             // 
             // bToolStripMenuItem
             // 
             this.bToolStripMenuItem.Name = "bToolStripMenuItem";
-            this.bToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.bToolStripMenuItem.Size = new System.Drawing.Size(81, 22);
             this.bToolStripMenuItem.Text = "b";
             this.bToolStripMenuItem.Click += new System.EventHandler(this.bToolStripMenuItemB_Click);
             // 
@@ -216,14 +218,14 @@
             // aToolStripMenuItem2
             // 
             this.aToolStripMenuItem2.Name = "aToolStripMenuItem2";
-            this.aToolStripMenuItem2.Size = new System.Drawing.Size(152, 22);
+            this.aToolStripMenuItem2.Size = new System.Drawing.Size(81, 22);
             this.aToolStripMenuItem2.Text = "a";
             this.aToolStripMenuItem2.Click += new System.EventHandler(this.aToolStripMenuItemUa_Click);
             // 
             // bToolStripMenuItem1
             // 
             this.bToolStripMenuItem1.Name = "bToolStripMenuItem1";
-            this.bToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
+            this.bToolStripMenuItem1.Size = new System.Drawing.Size(81, 22);
             this.bToolStripMenuItem1.Text = "b";
             this.bToolStripMenuItem1.Click += new System.EventHandler(this.bToolStripMenuItemUb_Click);
             // 
@@ -239,14 +241,14 @@
             // aToolStripMenuItem3
             // 
             this.aToolStripMenuItem3.Name = "aToolStripMenuItem3";
-            this.aToolStripMenuItem3.Size = new System.Drawing.Size(152, 22);
+            this.aToolStripMenuItem3.Size = new System.Drawing.Size(81, 22);
             this.aToolStripMenuItem3.Text = "a";
             this.aToolStripMenuItem3.Click += new System.EventHandler(this.aToolStripMenuItemJa_Click);
             // 
             // bToolStripMenuItem2
             // 
             this.bToolStripMenuItem2.Name = "bToolStripMenuItem2";
-            this.bToolStripMenuItem2.Size = new System.Drawing.Size(152, 22);
+            this.bToolStripMenuItem2.Size = new System.Drawing.Size(81, 22);
             this.bToolStripMenuItem2.Text = "b";
             this.bToolStripMenuItem2.Click += new System.EventHandler(this.bToolStripMenuItemJb_Click);
             // 
@@ -262,14 +264,14 @@
             // aToolStripMenuItem4
             // 
             this.aToolStripMenuItem4.Name = "aToolStripMenuItem4";
-            this.aToolStripMenuItem4.Size = new System.Drawing.Size(152, 22);
+            this.aToolStripMenuItem4.Size = new System.Drawing.Size(81, 22);
             this.aToolStripMenuItem4.Text = "a";
             this.aToolStripMenuItem4.Click += new System.EventHandler(this.aToolStripMenuItemRa_Click);
             // 
             // bToolStripMenuItem3
             // 
             this.bToolStripMenuItem3.Name = "bToolStripMenuItem3";
-            this.bToolStripMenuItem3.Size = new System.Drawing.Size(152, 22);
+            this.bToolStripMenuItem3.Size = new System.Drawing.Size(81, 22);
             this.bToolStripMenuItem3.Text = "b";
             this.bToolStripMenuItem3.Click += new System.EventHandler(this.bToolStripMenuItemRb_Click);
             // 
@@ -285,14 +287,14 @@
             // aToolStripMenuItem5
             // 
             this.aToolStripMenuItem5.Name = "aToolStripMenuItem5";
-            this.aToolStripMenuItem5.Size = new System.Drawing.Size(152, 22);
+            this.aToolStripMenuItem5.Size = new System.Drawing.Size(81, 22);
             this.aToolStripMenuItem5.Text = "a";
             this.aToolStripMenuItem5.Click += new System.EventHandler(this.aToolStripMenuItemNa_Click);
             // 
             // bToolStripMenuItem4
             // 
             this.bToolStripMenuItem4.Name = "bToolStripMenuItem4";
-            this.bToolStripMenuItem4.Size = new System.Drawing.Size(152, 22);
+            this.bToolStripMenuItem4.Size = new System.Drawing.Size(81, 22);
             this.bToolStripMenuItem4.Text = "b";
             this.bToolStripMenuItem4.Click += new System.EventHandler(this.bToolStripMenuItemNb_Click);
             // 
@@ -310,28 +312,28 @@
             // aToolStripMenuItem6
             // 
             this.aToolStripMenuItem6.Name = "aToolStripMenuItem6";
-            this.aToolStripMenuItem6.Size = new System.Drawing.Size(152, 22);
+            this.aToolStripMenuItem6.Size = new System.Drawing.Size(81, 22);
             this.aToolStripMenuItem6.Text = "a";
             this.aToolStripMenuItem6.Click += new System.EventHandler(this.aToolStripMenuItemGa_Click);
             // 
             // bToolStripMenuItem5
             // 
             this.bToolStripMenuItem5.Name = "bToolStripMenuItem5";
-            this.bToolStripMenuItem5.Size = new System.Drawing.Size(152, 22);
+            this.bToolStripMenuItem5.Size = new System.Drawing.Size(81, 22);
             this.bToolStripMenuItem5.Text = "b";
             this.bToolStripMenuItem5.Click += new System.EventHandler(this.bToolStripMenuItemGb_Click);
             // 
             // cToolStripMenuItem
             // 
             this.cToolStripMenuItem.Name = "cToolStripMenuItem";
-            this.cToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.cToolStripMenuItem.Size = new System.Drawing.Size(81, 22);
             this.cToolStripMenuItem.Text = "c";
             this.cToolStripMenuItem.Click += new System.EventHandler(this.cToolStripMenuItemGc_Click);
             // 
             // dToolStripMenuItem
             // 
             this.dToolStripMenuItem.Name = "dToolStripMenuItem";
-            this.dToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.dToolStripMenuItem.Size = new System.Drawing.Size(81, 22);
             this.dToolStripMenuItem.Text = "d";
             this.dToolStripMenuItem.Click += new System.EventHandler(this.dToolStripMenuItemGd_Click);
             // 
@@ -388,7 +390,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(415, 375);
+            this.ClientSize = new System.Drawing.Size(415, 318);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label4);

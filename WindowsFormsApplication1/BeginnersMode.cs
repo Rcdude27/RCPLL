@@ -14,6 +14,8 @@ namespace WindowsFormsApplication1
 {
     public partial class BeginnersMode : Form
     {
+        private object function;
+
         public BeginnersMode()
         {
             InitializeComponent();
@@ -339,6 +341,11 @@ namespace WindowsFormsApplication1
                 textBox1.AppendText(a.Type + Environment.NewLine);
                 textBox1.AppendText(a.AlgDisplay + Environment.NewLine + Environment.NewLine);
             }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("1. (R U R' U')" + Environment.NewLine + ("2. (R U R')") + Environment.NewLine + ("3. (R' F R F')") + Environment.NewLine + ("4. (R U R' U)") +  );
         }
     }
 }

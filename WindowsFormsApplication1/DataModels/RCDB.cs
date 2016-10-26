@@ -63,13 +63,15 @@ namespace DataModels
             PLL.Add(p);
 
             p = NewPerm("U(a)", "U(a).png", "Super easy and fast (Rotates Edges Counter-Clockwise)");
-            p.Algorithms.Add(NewAlg("[R U'] [R U] [R U] [R U'] R' U' R2", "One Handed - Left Hand & Two-Handed", "One-Handed - Left Hand: With one hand finger flick R2, Two Handed I like to use both index fingers for U moves.", false));
-            p.Algorithms.Add(NewAlg("F2 U R' L F2 R L' U F2", "Two-Handed", "This is the one I first learned may be a but easier to learn", true));
+            p.Algorithms.Add(NewAlg("[R U'] [R U] [R U] [R U'] R' U' R2", "One Handed - Left Hand & Two-Handed", "One-Handed - Left Hand: With one hand finger flick R2, Two Handed: I like to use both index fingers for U moves.", false));
+            p.Algorithms.Add(NewAlg("F2 U R' L F2 R L' U F2", "Two-Handed", "Two-Handed: This is the one I first learned may be a but easier to learn", false));
+            p.Algorithms.Add(NewAlg("M2 U M U2 M' U M2", "Two-Handed", "Two-Handed: Double Flick M-Slices - CCW", false));
             PLL.Add(p);
 
             p = NewPerm("U(b)", "U(b).png", "Super easy and fast (Rotates Clockwise)");
             p.Algorithms.Add(NewAlg("R2 U[R U R' U'](R' U')(R' U R')", "One Handed - Left Hand & Two-Handed", "One-Handed - Left Hand: Easy", true));
             p.Algorithms.Add(NewAlg("F2 U' R' L F2 R L' U' F2", "Two-Handed", "Same as U(a) with the F2's just the U moves are inverted.", true));
+            p.Algorithms.Add(NewAlg("M2 U' M U2 M' U' M2", "Two-Handed", "Double Flick M-Slices - CW", false));
             PLL.Add(p);
 
             p = NewPerm("R(a)", "R(a).png", "You do most of the moves with your left hand");

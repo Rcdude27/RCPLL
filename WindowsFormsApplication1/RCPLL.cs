@@ -231,7 +231,7 @@ namespace WindowsFormsApplication1
                 
                 textBox1.AppendText(a.Type + Environment.NewLine);
                 textBox1.AppendText(a.AlgDisplay + Environment.NewLine + Environment.NewLine);
-                textBox2.AppendText(a.ProTip);
+                textBox2.AppendText(a.ProTip + Environment.NewLine);
 
             }
         }
@@ -467,18 +467,23 @@ namespace WindowsFormsApplication1
             }
         }
         #endregion
-
+        #region Credits
         private void button2_Click(object sender, EventArgs e)
         {
             var CreditForm = new CreditsForm();
             CreditForm.ShowDialog();
         }
+        #endregion
 
+        #region HideStuff
         private void button1_Click(object sender, EventArgs e)
         {
             Hide();
             var BeginnersMode = new BeginnersMode();
             BeginnersMode.ShowDialog();
+            //Makes the thing close
+            Close();
         }
+        #endregion
     }
 }
