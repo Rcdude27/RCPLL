@@ -8,14 +8,12 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using DataModels;
-using WindowsFormsApplication1;
+using BeginnersMode;
 
-namespace WindowsFormsApplication1
+namespace BeginnersMode
 {
     public partial class BeginnersMode : Form
     {
-        private object function;
-
         public BeginnersMode()
         {
             InitializeComponent();
@@ -24,7 +22,7 @@ namespace WindowsFormsApplication1
         private void button1_Click(object sender, EventArgs e)
         {
             Hide();
-            var RCPLL = new RCPLL();
+            var RCPLL = new BeginnersMode();
             RCPLL.ShowDialog();
         }
 
@@ -345,7 +343,8 @@ namespace WindowsFormsApplication1
 
         private void button2_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("1. (R U R' U')" + Environment.NewLine + ("2. (R U R')") + Environment.NewLine + ("3. (R' F R F')") + Environment.NewLine + ("4. (R U R' U)") +  );
+            var TriggersForm = new TriggersForm();
+            TriggersForm.ShowDialog();
         }
     }
 }

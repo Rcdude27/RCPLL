@@ -69,6 +69,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TriggersForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TriggersForm.Designer.cs">
+      <DependentUpon>TriggersForm.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="BeginnersMode.resx">
       <DependentUpon>BeginnersMode.cs</DependentUpon>
     </EmbeddedResource>
@@ -88,6 +94,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="TriggersForm.resx">
+      <DependentUpon>TriggersForm.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

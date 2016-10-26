@@ -8,13 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using DataModels;
-using WindowsFormsApplication1;
+using BeginnersMode;
 
-namespace WindowsFormsApplication1
+namespace BeginnersMode
 {
-    public partial class RCPLL : Form
+    public partial class TriggersForm : Form
     {
-        public RCPLL()
+        public TriggersForm()
         {
             InitializeComponent();
         }
