@@ -1,4 +1,4 @@
-﻿namespace BeginnersMode
+﻿namespace RubikCubePLLHelp
 {
     partial class BeginnersMode
     {

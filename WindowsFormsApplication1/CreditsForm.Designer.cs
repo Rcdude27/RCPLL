@@ -1,4 +1,4 @@
-﻿namespace BeginnersMode
+﻿namespace CreditsFormNAME
 {
     partial class CreditsForm
     {

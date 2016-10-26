@@ -8,9 +8,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using DataModels;
-using BeginnersMode;
+using CreditsFormNAME;
 
-namespace BeginnersMode
+namespace RubikCubePLLHelp
 {
     public partial class BeginnersMode : Form
     {
@@ -22,7 +22,7 @@ namespace BeginnersMode
         private void button1_Click(object sender, EventArgs e)
         {
             Hide();
-            var RCPLL = new BeginnersMode();
+            var RCPLL = new RubiksCubePLLHelp.TriggersForm();
             RCPLL.ShowDialog();
         }
 

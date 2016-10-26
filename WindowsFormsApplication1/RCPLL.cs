@@ -8,9 +8,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using DataModels;
-using BeginnersMode;
+using RubikCubePLLHelp;
 
-namespace BeginnersMode
+namespace RubiksCubePLLHelp
 {
     public partial class TriggersForm : Form
     {
@@ -470,15 +470,15 @@ namespace BeginnersMode
 
         private void button2_Click(object sender, EventArgs e)
         {
-            var CreditForm = new CreditsForm();
+            var CreditForm = new CreditsFormNAME.CreditsForm();
             CreditForm.ShowDialog();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             Hide();
-            var BeginnersMode = new BeginnersMode();
-            BeginnersMode.ShowDialog();
+            var RubikCubePLLHelp = new BeginnersMode();
+            RubikCubePLLHelp.ShowDialog();
         }
     }
 }

@@ -1,4 +1,4 @@
-﻿namespace BeginnersMode
+﻿namespace RubiksCubePLLHelp
 {
     partial class TriggersForm
     {

@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace BeginnersMode
+namespace CreditsFormNAME
 {
     public partial class CreditsForm : Form
     {
