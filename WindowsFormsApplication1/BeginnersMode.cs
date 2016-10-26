@@ -340,11 +340,5 @@ namespace BeginnersMode
                 textBox1.AppendText(a.AlgDisplay + Environment.NewLine + Environment.NewLine);
             }
         }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            var TriggersForm = new TriggersForm();
-            TriggersForm.ShowDialog();
-        }
     }
 }
